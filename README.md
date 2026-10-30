@@ -65,3 +65,8 @@ One active project per signed-in account. The same account can retrieve its proj
 Open `/admin` on the existing deployed site. Authorized administrators can search all projects, inspect private drafts and daily journals, preview images/PDFs and download uploaded files. The console is read-only; ordinary student accounts cannot access its API.
 
 Set the server-side `ADMIN_EMAILS` allowlist through the hosting platform. Real administrator addresses and runtime secrets are excluded from this public repository. See [administrator setup and usage](docs/ADMIN.md).
+
+
+## Student language switch
+
+Use EN / 中文 in the student page header to switch the interface. The preference stays on the current device; entered text, filenames, uploads and API documents remain unchanged. Voice recognition follows the selected language. See [language behavior](docs/LANGUAGE.md).
